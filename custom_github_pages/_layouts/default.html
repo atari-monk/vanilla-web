@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Pages</title>
+    <link
+      id="light-theme"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css"
+      disabled
+    />
+    <link
+      id="dark-theme"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css"
+      disabled
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link
+      id="dark-mode-styles"
+      rel="stylesheet"
+      href="/assets/css/dark-mode.css"
+      disabled
+    />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="/_layouts/default.html">Custom Github Pages</a>
+      </h1>
+      <button id="themeToggle" aria-label="Toggle theme">🌓</button>
+    </header>
+    <main>
+      <a href="templates.html">Templates</a></br />
+      <a href="projects.html">Projects</a></br />
+      <a href="test.html">Test</a>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="/assets/js/theme-manager.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        hljs.highlightAll()
+      })
+    </script>
+  </body>
+</html>

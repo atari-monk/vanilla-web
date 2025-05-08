@@ -1,9 +1,11 @@
 # Vanilla Web
 
-Testing html, css based pages.
+Testing vanilla stack pages  
 
-## Usage  
+## Usage
+
 1. Clone the repository:  
-   ```sh
-   git clone https://github.com/atari-monk/vanilla-web.git
-   ```
+
+```sh
+git clone https://github.com/atari-monk/vanilla-web.git
+```
