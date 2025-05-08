@@ -8,6 +8,8 @@ Custom Template for Github Pages with
 
 ### Example Pages
 
+This shows link paths for static pages hosted on github  
+
 - [Projects](custom_github_pages/projects.html)
 - [Templates](custom_github_pages/templates.html)
 - [Test](custom_github_pages/test.html)
@@ -15,4 +17,4 @@ Custom Template for Github Pages with
 ### Local Test Version
 
 To test css and js locally in development mode  
-Use npm serve on repo root to serve test pages
+Use npm serve, on repo root, to serve test pages
