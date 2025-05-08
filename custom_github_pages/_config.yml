@@ -1,7 +1,0 @@
-title: repo-name
-markdown: kramdown
-theme: minima
-
-defaults:
-  - values:
-      layout: default
