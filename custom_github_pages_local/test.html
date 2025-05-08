@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link
+      id="light-theme"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css"
+      disabled
+    />
+    <link
+      id="dark-theme"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css"
+      disabled
+    />
+    <link
+      id="dark-mode-styles"
+      rel="stylesheet"
+      href="/assets/css/dark-mode.css"
+      disabled
+    />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="/">Custom Github Pages</a>
+      </h1>
+      <button id="themeToggle" aria-label="Toggle theme">🌓</button>
+    </header>
+    <main>
+      <h1>Test Page</h1></br>
+      <p>This is a simple layout with code blocks styled like GitHub!</p>
+
+      <h2>Example Code Block</h2>
+      <pre><code class="language-css">
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f8fa;
+}
+    </code></pre>
+
+      <h2>Another Example</h2>
+      <pre><code class="language-javascript">
+function hello() {
+  console.log("Hello, GitHub!");
+}
+    </code></pre>
+
+      <button>Click Me</button>
+
+      <br />
+      <br />
+
+      <h2>Example of Nested Lists</h2>
+      <ul>
+        <li>
+          Item 1
+          <ul>
+            <li>Subitem 1.1</li>
+            <li>
+              Subitem 1.2
+              <ul>
+                <li>Subsubitem 1.2.1</li>
+                <li>Subsubitem 1.2.2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Item 2</li>
+        <li>
+          Item 3
+          <ul>
+            <li>Subitem 3.1</li>
+            <li>Subitem 3.2</li>
+          </ul>
+        </li>
+      </ul>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="/assets/js/theme-manager.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        hljs.highlightAll()
+      })
+    </script>
+  </body>
+</html>

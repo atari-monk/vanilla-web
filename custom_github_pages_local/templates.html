@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link
+      id="light-theme"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css"
+      disabled
+    />
+    <link
+      id="dark-theme"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css"
+      disabled
+    />
+    <link
+      id="dark-mode-styles"
+      rel="stylesheet"
+      href="/assets/css/dark-mode.css"
+      disabled
+    />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="/">Custom Github Pages</a>
+      </h1>
+      <button id="themeToggle" aria-label="Toggle theme">🌓</button>
+    </header>
+    <main>
+      <h1>Templates</h1>
+      <br />
+      <p>
+        Templates, schemes, configurations of stuff<br />
+        Setup made once that can be potentially reused
+      </p>
+      <hr />
+
+      <h2 id="github-page-with-dark-mode">Github Page with Dark Mode</h2>
+
+      <p>Template for Github page with dark mode</p>
+
+      <div class="language-plaintext highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code class="hljs language-cpp">├── _config.yml
+├── _layouts
+│   └── <span class="hljs-keyword">default</span>.html
+└── assets
+    ├── css
+    │   ├── dark-mode.css
+    │   └── styles.css
+    └── js
+        └── theme-manager.js
+</code></pre>
+        </div>
+      </div>
+
+      <h2 id="markdown">Markdown</h2>
+
+      <p>Schemes for markdown content</p>
+
+      <ul>
+        <li>projects</li>
+      </ul>
+
+      <h2 id="prompts">Prompts</h2>
+
+      <p>Templates for LLM prompts</p>
+
+      <ul>
+        <li>cli_command_documentation</li>
+        <li>component_specification</li>
+        <li>feature_specification</li>
+        <li>learning_react</li>
+        <li>markdown_to_blog_min</li>
+        <li>markdown_to_blog</li>
+        <li>question</li>
+      </ul>
+
+      <h2 id="python-project">Python Project</h2>
+
+      <p>Configuration files for python project</p>
+
+      <ul>
+        <li>
+          <code class="language-plaintext highlighter-rouge">__init__.py</code>
+        </li>
+        <li>.gitignore</li>
+        <li>README.md</li>
+        <li>requirements.txt</li>
+        <li>setup.py</li>
+      </ul>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="/assets/js/theme-manager.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        hljs.highlightAll()
+      })
+    </script>
+  </body>
+</html>
